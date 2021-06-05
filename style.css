@@ -1,0 +1,198 @@
+/* reset CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+html{
+    font-size: 15px;
+    font-family: 'Spartan',sans-serif;
+}
+
+/* reset CSS */
+
+#main{
+    margin: 75px 95px 60px 95px;
+}
+
+#rate-start .user-rate-start{
+    margin-right: 10px;
+    
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+}
+
+#content .title{
+    width: 50%;
+}
+
+#content .title h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+#content .title p{
+    margin-top: 10px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+#content  .user-rate-start .reviews,
+#content  .user-rate-start .guru,
+#content  .user-rate-start .besttech{
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+#content .user-rate-start img{
+    margin-right: 5px;
+}
+
+#content .user-rate-start span{
+    margin-left: 20px;
+
+}
+
+#content  .user-rate-start .reviews  {
+    
+    margin-left: 82px ;
+}
+
+#content  .user-rate-start .guru  {
+
+    margin-left: 112px ;
+}
+
+#content  .user-rate-start .besttech  {
+    margin-left: 142px ;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    color: hsl(0, 0%, 100%);
+}
+
+#card .name{
+    margin-bottom: 20px;
+}
+
+#card .name img{
+    width: 35px;
+}
+
+#card .info{
+    margin-left: 12px;
+    align-content: center;
+}
+
+#card .info p{
+    color: hsl(333, 80%, 67%);
+    font-weight: 700;
+}
+
+#card .decription p{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);   
+    margin-bottom: 25px;
+}
+
+#card-colton .name, #card-irene .name, #card-anne .name{
+    display: flex;
+    flex-direction: row;
+}
+
+#card-colton, #card-irene, #card-anne {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    margin-right: 20px;
+    padding: 22px 20px;
+    height: 100%;
+}
+
+#card-colton img, 
+#card-irene img, 
+#card-anne img{
+    border-radius: 50%;
+}
+
+#card-colton{
+    margin-top: 40px;
+}
+
+#card-irene{
+    margin-top: 50px;
+}
+
+#card-anne{
+    margin-top: 60px;
+}
+
+/* Mobile */
+@media only screen and (min-device-width : 375px) and (max-device-width : 740px) {
+
+#main{
+    margin: 75px 25px 85px 25px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#content .title{
+    width: 100%;
+    text-align: center;
+}
+
+#content .title p{
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+
+#content .user-rate-start span{
+    display: block;
+    margin-top: 15px;
+}
+
+#content  .user-rate-start .reviews,
+#content  .user-rate-start .guru,
+#content  .user-rate-start .besttech{
+   margin-left: 0px ;
+   text-align: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+#card-colton, #card-irene, #card-anne {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 22px 20px;
+}
+
+
+
+    }
+/* Mobile */
